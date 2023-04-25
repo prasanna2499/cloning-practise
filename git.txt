@@ -1,0 +1,29 @@
+yum install git -y ------> Without our permission git will be installed in our system.
+
+yum install git ----> With our permission git will be installed in our system.
+
+after installation we need to check the version of our git for that command is 
+git --version ---> it shows which version is installed in our system.
+
+after checking the version we can initialize the git by using
+
+git init . ---> This command initializes the git system (.)---> it will create a hidden git file.
+
+after this we can create the file by using touch command and then we can perform some commands in git
+
+git status ---> it is the command which is used to know the files are in tracked or untracked position.
+
+git add filename ---> it is used to add the file to the git tracker.
+
+git rm --cached filename ---> it is used to remove the file from tracker to untracker position.
+
+git commit -m "the message we are willing to give" filename ----> it is used to commit the particular file.
+
+git log ---> we can able to see the history of commits that are commited to the git.
+
+git log -2 ---> we can able to see the latest 2 files that are commited.(2 is example).
+
+git log --follow --all filename ---> it shows history of the particular file.
+
+ 
+
